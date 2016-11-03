@@ -14,7 +14,6 @@ include( dirname( __FILE__ ) . '/wp-admin/includes/post.php' );
 include( dirname( __FILE__ ) . '/wp-admin/includes/template.php' );
 
 include( dirname( __FILE__ ) . '/wp-includes/canonical.php' );
-include( dirname( __FILE__ ) . '/wp-includes/class-wp-customize-manager.php' );
 include( dirname( __FILE__ ) . '/wp-includes/class-wp-query.php' );
 include( dirname( __FILE__ ) . '/wp-includes/link-template.php' );
 include( dirname( __FILE__ ) . '/wp-includes/post-template.php' );
