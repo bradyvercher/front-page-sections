@@ -54,6 +54,8 @@ add_action( 'customize_controls_enqueue_scripts', 'fps_enqueue_customizer_assets
  * @return bool
  */
 function fps_comments_open( $open, $post_id ) {
+	$post_id = get_post( $post_id )->ID;
+
 	if ( is_front_page_section( $post_id ) ) {
 		$open = false;
 	}
